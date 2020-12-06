@@ -9,7 +9,7 @@ This is a Sign Language Recogniser made for 3rd Semester Practicum Course.
 
 ### Screenshots
 
-<img src="land.png" >
-<img src = "pre1.png" >
-<img src = "pre2.png" >
+<img src="result/land.png" >
+<img src = "result/pre1.png" >
+<img src = "result/pre2.png" >
 
