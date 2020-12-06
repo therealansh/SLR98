@@ -1,0 +1,53 @@
+.vid-frame {
+    margin-top: 50px;
+    margin-right: 1.5rem;
+    height: 450px;
+    width: 800px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    box-shadow:
+          1px 1px #111,
+          2px 2px #111,
+          3px 3px #111,
+          4px 4px #111,
+          5px 5px #111,
+          6px 6px #111,
+          7px 7px #111,
+          8px 8px #111,
+          9px 9px #111,
+          10px 10px #111,
+          12px 12px #111,
+          13px 13px #111,
+          14px 14px #111,
+          15px 15px #111,
+          16px 16px #111,
+          17px 17px #111,
+          18px 18px #111,
+          19px 19px #111,
+          20px 20px #111;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid {
+    position: relative;
+    height: 450px;
+    border-radius: 20px;
+    overflow: scroll;
+    width: 1900px;
+    scroll-snap-type: y mandatory;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .vid::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .vid {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }

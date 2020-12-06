@@ -1,0 +1,30 @@
+/CustomData/
+/data/
+/preprocess_data/
+/venv/
+/test1.jpg
+/test2.jpg
+/test3.jpg
+/models/
+/land.png
+/pre1.png
+/pre2.png
+/__pycache__
+.idea
+.ipynb_checkpoints
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/SLR98_web/slr98_web/node_modules
+
+/SLR98_web/slr98_web/.pnp
+/SLR98_web/slr98_web.pnp.js
+
+# testing
+/SLR98_web/slr98_web/coverage
+
+# production
+/SLR98_web/slr98_web/build

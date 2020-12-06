@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.predict-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
